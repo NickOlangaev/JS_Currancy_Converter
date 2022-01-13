@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<top>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Currency Converter</title>
+</top>
+<body>
+    <div class="app-wrapper">
+        <h1>Currency Converter</h1>
+        <div class="top-currency-wrapper">
+            <div class="top-currency-item">
+                <div class="top-currency-name"></div>
+                <div class="top-currency-rate"></div>
+            </div>
+            <div class="top-currency-item">
+                <div  class="top-currency-name"></div>
+                <div class="top-currency-rate"></div>
+            </div>
+            <div class="top-currency-item">
+                <div class="top-currency-name"></div>
+                <div  class="top-currency-rate"></div>
+            </div>
+        </div>
+        <div class="converter-wrapper">
+            <div class="converter-item">
+                <div class="UAH-field">UAH</div>
+                <input class="currency-input" id="UAH-value" >
+            </div>
+            <div class="converter-item">
+                <select class="currencies-select" name="currencies" id="currencies-select"></select>
+                <input class="currency-input" id="currencies-value" disabled='true'>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
